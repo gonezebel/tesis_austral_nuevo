@@ -1,0 +1,50 @@
+{
+  "paths": {
+    "scripts": "scripts",
+    "data": "C:/Users/Gonzalo/Documents/GitHub/TesisAustral/Archivos_tesis/data",
+    "intermediate": {
+      "encoded": "C:/Users/Gonzalo/Documents/GitHub/TesisAustral/Archivos_tesis/intermediate/encoded",
+      "featured": "C:/Users/Gonzalo/Documents/GitHub/TesisAustral/Archivos_tesis/intermediate/featured",
+      "normalized": "C:/Users/Gonzalo/Documents/GitHub/TesisAustral/Archivos_tesis/intermediate/normalized"
+    },
+    "outputs": "outputs"
+  },
+  "parameters": {
+    "01_LecturayAnalisis": {
+      "dataset_file": "raw/df_triage_ok.csv",
+      "categorical_columns": [
+        "modo_llegada", "mes", "dia", "llegada_hora_bin", "TipoCobertura", "sexo"
+      ],
+      "one_hot_encoder": {
+        "sparse_output": false,
+        "drop": "first"
+      }
+    },
+    "02_Normalization": {
+      "dataset_file": "encoded/df_triage_encoded.parquet",
+      "normalizations": ["maxabs", "minmax", "standard", "robust", "none"]
+    },
+    "03_Feateng_selection": {
+      "selection_methods": ["f_classif", "mutual_info", "random_forest"],
+      "k_best_features": 500,
+      "output_feature_reports": "descriptive_analysis/feature_reports",
+      "anova_csv": "descriptive_analysis/anova_results.csv",
+      "correlation_csv": "descriptive_analysis/pearson_correlation_results.csv"
+    },
+    "04_Train_Test": {
+      "target_column": "nivel_triage",
+      "test_size": 0.2,
+      "random_state": 42,
+      "seed": 42
+    }
+  },
+  "scripts": {
+    "notebooks": [
+      "scripts/01_LecturayAnalisis.ipynb",
+      "scripts/02_Feateng_selection.ipynb",
+      "scripts/03_Normalization.ipynb",
+      "scripts/04_Train_Test.ipynb"
+    ]
+  }
+}
+
