@@ -1,0 +1,345 @@
+2025-03-04 23:11:47,526 - INFO - Proceso completado. Archivos procesados correctamente: 0
+2025-03-04 23:22:05,941 - INFO - Procesando archivo: MaxAbs_all_features.parquet
+2025-03-04 23:22:05,942 - INFO - Tamaño del archivo MaxAbs_all_features.parquet: 0.19 GB
+2025-03-04 23:22:14,410 - INFO - Archivo cargado. Filas: 560486, Columnas: 713
+2025-03-04 23:22:15,253 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:22:53,580 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:22:57,110 - WARNING - Error al aplicar SMOTE: Unable to allocate 2.38 GiB for an array with shape (448388, 712) and data type float64
+2025-03-04 23:23:09,708 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_232205\MaxAbs
+2025-03-04 23:23:10,700 - INFO - Procesando archivo: MaxAbs_Linear_selected.parquet
+2025-03-04 23:23:10,702 - INFO - Tamaño del archivo MaxAbs_Linear_selected.parquet: 0.10 GB
+2025-03-04 23:23:11,377 - INFO - Archivo cargado. Filas: 560486, Columnas: 144
+2025-03-04 23:23:11,399 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:23:12,524 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:24:32,319 - INFO - SMOTE aplicado correctamente.
+2025-03-04 23:24:36,134 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_232205\MaxAbs
+2025-03-04 23:24:36,354 - INFO - Procesando archivo: MaxAbs_Model-Based_selected.parquet
+2025-03-04 23:24:36,355 - INFO - Tamaño del archivo MaxAbs_Model-Based_selected.parquet: 0.05 GB
+2025-03-04 23:24:36,620 - INFO - Archivo cargado. Filas: 560486, Columnas: 81
+2025-03-04 23:24:36,627 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:24:37,155 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:25:13,270 - INFO - Procesando archivo: MaxAbs_all_features.parquet
+2025-03-04 23:25:13,270 - INFO - Tamaño del archivo MaxAbs_all_features.parquet: 0.19 GB
+2025-03-04 23:25:15,242 - INFO - Archivo cargado. Filas: 560486, Columnas: 713
+2025-03-04 23:25:15,249 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:25:45,747 - INFO - Procesando archivo: MaxAbs_all_features.parquet
+2025-03-04 23:25:45,747 - INFO - Tamaño del archivo MaxAbs_all_features.parquet: 0.19 GB
+2025-03-04 23:25:47,686 - INFO - Archivo cargado. Filas: 560486, Columnas: 713
+2025-03-04 23:25:47,697 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:26:10,567 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:26:12,238 - WARNING - Error al aplicar SMOTE: Unable to allocate 2.38 GiB for an array with shape (448388, 712) and data type float64
+2025-03-04 23:26:22,377 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_232545\MaxAbs
+2025-03-04 23:26:23,343 - INFO - Procesando archivo: MaxAbs_Linear_selected.parquet
+2025-03-04 23:26:23,343 - INFO - Tamaño del archivo MaxAbs_Linear_selected.parquet: 0.10 GB
+2025-03-04 23:26:24,211 - INFO - Archivo cargado. Filas: 560486, Columnas: 144
+2025-03-04 23:26:24,229 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:26:25,576 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:29:40,375 - INFO - Procesando archivo: MaxAbs_all_features.parquet
+2025-03-04 23:29:40,375 - INFO - Tamaño del archivo MaxAbs_all_features.parquet: 0.19 GB
+2025-03-04 23:29:45,782 - INFO - Archivo cargado. Filas: 560486, Columnas: 713
+2025-03-04 23:29:45,903 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:30:01,810 - ERROR - Error procesando MaxAbs_all_features.parquet: Unable to allocate 2.38 GiB for an array with shape (712, 448388) and data type float64
+Traceback (most recent call last):
+  File "C:\Users\Administrador\AppData\Local\Temp\ipykernel_40292\3706140890.py", line 99, in create_train_test_split
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "c:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\.venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\.venv\Lib\site-packages\sklearn\model_selection\_split.py", line 2683, in train_test_split
+    return list(
+           ^^^^^
+  File "c:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\.venv\Lib\site-packages\sklearn\model_selection\_split.py", line 2685, in <genexpr>
+    (_safe_indexing(a, train), _safe_indexing(a, test)) for a in arrays
+     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\.venv\Lib\site-packages\sklearn\utils\__init__.py", line 407, in _safe_indexing
+    return _pandas_indexing(X, indices, indices_dtype, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\.venv\Lib\site-packages\sklearn\utils\__init__.py", line 219, in _pandas_indexing
+    return X.take(key, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\.venv\Lib\site-packages\pandas\core\generic.py", line 4068, in take
+    new_data = self._mgr.take(
+               ^^^^^^^^^^^^^^^
+  File "c:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 877, in take
+    return self.reindex_indexer(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 671, in reindex_indexer
+    blk.take_nd(
+  File "c:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 1061, in take_nd
+    new_values = algos.take_nd(
+                 ^^^^^^^^^^^^^^
+  File "c:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\.venv\Lib\site-packages\pandas\core\array_algos\take.py", line 118, in take_nd
+    return _take_nd_ndarray(arr, indexer, axis, fill_value, allow_fill)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\.venv\Lib\site-packages\pandas\core\array_algos\take.py", line 158, in _take_nd_ndarray
+    out = np.empty(out_shape, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 2.38 GiB for an array with shape (712, 448388) and data type float64
+2025-03-04 23:30:04,834 - INFO - Procesando archivo: MaxAbs_Linear_selected.parquet
+2025-03-04 23:30:04,839 - INFO - Tamaño del archivo MaxAbs_Linear_selected.parquet: 0.10 GB
+2025-03-04 23:30:05,556 - INFO - Archivo cargado. Filas: 560486, Columnas: 144
+2025-03-04 23:30:05,572 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:30:06,840 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:30:52,767 - INFO - Procesando archivo: MaxAbs_all_features.parquet
+2025-03-04 23:30:52,767 - INFO - Tamaño del archivo MaxAbs_all_features.parquet: 0.19 GB
+2025-03-04 23:30:54,879 - INFO - Archivo cargado. Filas: 560486, Columnas: 713
+2025-03-04 23:30:54,892 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:31:13,804 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:36:55,633 - INFO - SMOTE aplicado correctamente.
+2025-03-04 23:37:12,459 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\MaxAbs
+2025-03-04 23:37:13,241 - INFO - Procesando archivo: MaxAbs_Linear_selected.parquet
+2025-03-04 23:37:13,242 - INFO - Tamaño del archivo MaxAbs_Linear_selected.parquet: 0.10 GB
+2025-03-04 23:37:13,977 - INFO - Archivo cargado. Filas: 560486, Columnas: 144
+2025-03-04 23:37:13,999 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:37:15,017 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:38:44,658 - INFO - SMOTE aplicado correctamente.
+2025-03-04 23:38:48,584 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\MaxAbs
+2025-03-04 23:38:48,803 - INFO - Procesando archivo: MaxAbs_Model-Based_selected.parquet
+2025-03-04 23:38:48,804 - INFO - Tamaño del archivo MaxAbs_Model-Based_selected.parquet: 0.05 GB
+2025-03-04 23:38:49,092 - INFO - Archivo cargado. Filas: 560486, Columnas: 81
+2025-03-04 23:38:49,104 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:38:49,676 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:39:52,348 - INFO - SMOTE aplicado correctamente.
+2025-03-04 23:39:54,323 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\MaxAbs
+2025-03-04 23:39:54,442 - INFO - Procesando archivo: MaxAbs_Nonlinear_selected.parquet
+2025-03-04 23:39:54,443 - INFO - Tamaño del archivo MaxAbs_Nonlinear_selected.parquet: 0.11 GB
+2025-03-04 23:39:54,967 - INFO - Archivo cargado. Filas: 560486, Columnas: 154
+2025-03-04 23:39:54,977 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:39:55,864 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:41:31,575 - INFO - SMOTE aplicado correctamente.
+2025-03-04 23:41:35,871 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\MaxAbs
+2025-03-04 23:41:36,121 - INFO - Procesando archivo: MinMax_all_features.parquet
+2025-03-04 23:41:36,121 - INFO - Tamaño del archivo MinMax_all_features.parquet: 0.19 GB
+2025-03-04 23:41:38,552 - INFO - Archivo cargado. Filas: 560486, Columnas: 713
+2025-03-04 23:41:38,560 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:41:46,894 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:47:44,727 - INFO - SMOTE aplicado correctamente.
+2025-03-04 23:48:02,094 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\MinMax
+2025-03-04 23:48:02,938 - INFO - Procesando archivo: MinMax_Linear_selected.parquet
+2025-03-04 23:48:02,948 - INFO - Tamaño del archivo MinMax_Linear_selected.parquet: 0.10 GB
+2025-03-04 23:48:03,738 - INFO - Archivo cargado. Filas: 560486, Columnas: 144
+2025-03-04 23:48:03,751 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:48:04,626 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:49:37,055 - INFO - SMOTE aplicado correctamente.
+2025-03-04 23:49:41,138 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\MinMax
+2025-03-04 23:49:41,369 - INFO - Procesando archivo: MinMax_Model-Based_selected.parquet
+2025-03-04 23:49:41,369 - INFO - Tamaño del archivo MinMax_Model-Based_selected.parquet: 0.04 GB
+2025-03-04 23:49:41,729 - INFO - Archivo cargado. Filas: 560486, Columnas: 75
+2025-03-04 23:49:41,734 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:49:42,251 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:50:43,541 - INFO - SMOTE aplicado correctamente.
+2025-03-04 23:50:45,275 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\MinMax
+2025-03-04 23:50:45,407 - INFO - Procesando archivo: MinMax_Nonlinear_selected.parquet
+2025-03-04 23:50:45,409 - INFO - Tamaño del archivo MinMax_Nonlinear_selected.parquet: 0.11 GB
+2025-03-04 23:50:45,979 - INFO - Archivo cargado. Filas: 560486, Columnas: 154
+2025-03-04 23:50:45,980 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:50:46,844 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:52:20,855 - INFO - SMOTE aplicado correctamente.
+2025-03-04 23:52:25,149 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\MinMax
+2025-03-04 23:52:25,414 - INFO - Procesando archivo: NoNorm_all_features.parquet
+2025-03-04 23:52:25,415 - INFO - Tamaño del archivo NoNorm_all_features.parquet: 0.19 GB
+2025-03-04 23:52:27,498 - INFO - Archivo cargado. Filas: 560486, Columnas: 713
+2025-03-04 23:52:27,500 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:52:36,404 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-04 23:58:24,686 - INFO - SMOTE aplicado correctamente.
+2025-03-04 23:58:40,732 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\NoNorm
+2025-03-04 23:58:41,539 - INFO - Procesando archivo: NoNorm_Linear_selected.parquet
+2025-03-04 23:58:41,539 - INFO - Tamaño del archivo NoNorm_Linear_selected.parquet: 0.10 GB
+2025-03-04 23:58:42,297 - INFO - Archivo cargado. Filas: 560486, Columnas: 144
+2025-03-04 23:58:42,313 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-04 23:58:43,256 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-05 00:00:15,927 - INFO - SMOTE aplicado correctamente.
+2025-03-05 00:00:20,061 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\NoNorm
+2025-03-05 00:00:20,300 - INFO - Procesando archivo: NoNorm_Model-Based_selected.parquet
+2025-03-05 00:00:20,301 - INFO - Tamaño del archivo NoNorm_Model-Based_selected.parquet: 0.01 GB
+2025-03-05 00:00:20,346 - INFO - Archivo cargado. Filas: 560486, Columnas: 11
+2025-03-05 00:00:20,353 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-05 00:00:20,589 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-05 00:00:24,448 - INFO - SMOTE aplicado correctamente.
+2025-03-05 00:00:24,652 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\NoNorm
+2025-03-05 00:00:24,686 - INFO - Procesando archivo: NoNorm_Nonlinear_selected.parquet
+2025-03-05 00:00:24,687 - INFO - Tamaño del archivo NoNorm_Nonlinear_selected.parquet: 0.11 GB
+2025-03-05 00:00:25,286 - INFO - Archivo cargado. Filas: 560486, Columnas: 154
+2025-03-05 00:00:25,292 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-05 00:00:26,124 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-05 00:02:04,602 - INFO - SMOTE aplicado correctamente.
+2025-03-05 00:02:08,892 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\NoNorm
+2025-03-05 00:02:09,154 - INFO - Procesando archivo: Robust_all_features.parquet
+2025-03-05 00:02:09,154 - INFO - Tamaño del archivo Robust_all_features.parquet: 0.19 GB
+2025-03-05 00:02:11,418 - INFO - Archivo cargado. Filas: 560486, Columnas: 713
+2025-03-05 00:02:11,428 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-05 00:02:22,042 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-05 00:08:15,386 - INFO - SMOTE aplicado correctamente.
+2025-03-05 00:08:32,047 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\Robust
+2025-03-05 00:08:32,855 - INFO - Procesando archivo: Robust_Linear_selected.parquet
+2025-03-05 00:08:32,863 - INFO - Tamaño del archivo Robust_Linear_selected.parquet: 0.10 GB
+2025-03-05 00:08:33,762 - INFO - Archivo cargado. Filas: 560486, Columnas: 145
+2025-03-05 00:08:33,779 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-05 00:08:34,677 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-05 00:10:07,341 - INFO - SMOTE aplicado correctamente.
+2025-03-05 00:10:11,494 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\Robust
+2025-03-05 00:10:11,740 - INFO - Procesando archivo: Robust_Model-Based_selected.parquet
+2025-03-05 00:10:11,755 - INFO - Tamaño del archivo Robust_Model-Based_selected.parquet: 0.01 GB
+2025-03-05 00:10:11,805 - INFO - Archivo cargado. Filas: 560486, Columnas: 11
+2025-03-05 00:10:11,805 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-05 00:10:12,048 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-05 00:10:15,933 - INFO - SMOTE aplicado correctamente.
+2025-03-05 00:10:16,149 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\Robust
+2025-03-05 00:10:16,173 - INFO - Procesando archivo: Robust_Nonlinear_selected.parquet
+2025-03-05 00:10:16,173 - INFO - Tamaño del archivo Robust_Nonlinear_selected.parquet: 0.11 GB
+2025-03-05 00:10:16,716 - INFO - Archivo cargado. Filas: 560486, Columnas: 154
+2025-03-05 00:10:16,729 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-05 00:10:17,565 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-05 00:11:51,730 - INFO - SMOTE aplicado correctamente.
+2025-03-05 00:11:56,052 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\Robust
+2025-03-05 00:11:56,323 - INFO - Procesando archivo: Standard_all_features.parquet
+2025-03-05 00:11:56,323 - INFO - Tamaño del archivo Standard_all_features.parquet: 0.19 GB
+2025-03-05 00:11:58,750 - INFO - Archivo cargado. Filas: 560486, Columnas: 713
+2025-03-05 00:11:58,757 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-05 00:12:11,778 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-05 00:18:23,964 - INFO - SMOTE aplicado correctamente.
+2025-03-05 00:18:39,313 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\Standard
+2025-03-05 00:18:40,113 - INFO - Procesando archivo: Standard_Linear_selected.parquet
+2025-03-05 00:18:40,113 - INFO - Tamaño del archivo Standard_Linear_selected.parquet: 0.10 GB
+2025-03-05 00:18:40,850 - INFO - Archivo cargado. Filas: 560486, Columnas: 144
+2025-03-05 00:18:40,862 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-05 00:18:41,912 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-05 00:20:12,094 - INFO - SMOTE aplicado correctamente.
+2025-03-05 00:20:16,151 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\Standard
+2025-03-05 00:20:16,390 - INFO - Procesando archivo: Standard_Model-Based_selected.parquet
+2025-03-05 00:20:16,390 - INFO - Tamaño del archivo Standard_Model-Based_selected.parquet: 0.05 GB
+2025-03-05 00:20:16,712 - INFO - Archivo cargado. Filas: 560486, Columnas: 80
+2025-03-05 00:20:16,722 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-05 00:20:17,250 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-05 00:21:21,332 - INFO - SMOTE aplicado correctamente.
+2025-03-05 00:21:23,294 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\Standard
+2025-03-05 00:21:23,410 - INFO - Procesando archivo: Standard_Nonlinear_selected.parquet
+2025-03-05 00:21:23,410 - INFO - Tamaño del archivo Standard_Nonlinear_selected.parquet: 0.11 GB
+2025-03-05 00:21:23,921 - INFO - Archivo cargado. Filas: 560486, Columnas: 155
+2025-03-05 00:21:23,926 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-03-05 00:21:24,893 - INFO - División completada. Train: 448388, Test: 112098
+2025-03-05 00:23:00,390 - INFO - SMOTE aplicado correctamente.
+2025-03-05 00:23:04,749 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_20250304_233052\Standard
+2025-03-05 00:23:05,027 - INFO - Proceso completado. Archivos procesados correctamente: 20/20
+2025-05-12 22:56:19,204 - INFO - Procesando archivo: MaxAbs_all_features.parquet
+2025-05-12 22:56:19,205 - INFO - Tamaño del archivo MaxAbs_all_features.parquet: 0.19 GB
+2025-05-12 22:56:37,967 - INFO - Archivo cargado. Filas: 560486, Columnas: 713
+2025-05-12 22:56:39,118 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:57:03,901 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:57:16,749 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\MaxAbs
+2025-05-12 22:57:17,554 - INFO - Procesando archivo: MaxAbs_Linear_selected.parquet
+2025-05-12 22:57:17,555 - INFO - Tamaño del archivo MaxAbs_Linear_selected.parquet: 0.10 GB
+2025-05-12 22:57:18,177 - INFO - Archivo cargado. Filas: 560486, Columnas: 144
+2025-05-12 22:57:18,184 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:57:19,245 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:57:22,004 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\MaxAbs
+2025-05-12 22:57:22,181 - INFO - Procesando archivo: MaxAbs_Model-Based_selected.parquet
+2025-05-12 22:57:22,188 - INFO - Tamaño del archivo MaxAbs_Model-Based_selected.parquet: 0.05 GB
+2025-05-12 22:57:22,930 - INFO - Archivo cargado. Filas: 560486, Columnas: 81
+2025-05-12 22:57:22,937 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:57:23,590 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:57:24,808 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\MaxAbs
+2025-05-12 22:57:24,903 - INFO - Procesando archivo: MaxAbs_Nonlinear_selected.parquet
+2025-05-12 22:57:24,904 - INFO - Tamaño del archivo MaxAbs_Nonlinear_selected.parquet: 0.11 GB
+2025-05-12 22:57:25,446 - INFO - Archivo cargado. Filas: 560486, Columnas: 154
+2025-05-12 22:57:25,454 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:57:26,475 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:57:29,145 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\MaxAbs
+2025-05-12 22:57:29,353 - INFO - Procesando archivo: MinMax_all_features.parquet
+2025-05-12 22:57:29,360 - INFO - Tamaño del archivo MinMax_all_features.parquet: 0.19 GB
+2025-05-12 22:57:31,542 - INFO - Archivo cargado. Filas: 560486, Columnas: 713
+2025-05-12 22:57:31,553 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:57:45,885 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:57:57,222 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\MinMax
+2025-05-12 22:57:57,949 - INFO - Procesando archivo: MinMax_Linear_selected.parquet
+2025-05-12 22:57:57,950 - INFO - Tamaño del archivo MinMax_Linear_selected.parquet: 0.10 GB
+2025-05-12 22:57:58,631 - INFO - Archivo cargado. Filas: 560486, Columnas: 144
+2025-05-12 22:57:58,641 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:57:59,645 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:58:02,321 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\MinMax
+2025-05-12 22:58:02,495 - INFO - Procesando archivo: MinMax_Model-Based_selected.parquet
+2025-05-12 22:58:02,501 - INFO - Tamaño del archivo MinMax_Model-Based_selected.parquet: 0.04 GB
+2025-05-12 22:58:02,829 - INFO - Archivo cargado. Filas: 560486, Columnas: 75
+2025-05-12 22:58:02,835 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:58:03,373 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:58:04,443 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\MinMax
+2025-05-12 22:58:04,535 - INFO - Procesando archivo: MinMax_Nonlinear_selected.parquet
+2025-05-12 22:58:04,541 - INFO - Tamaño del archivo MinMax_Nonlinear_selected.parquet: 0.11 GB
+2025-05-12 22:58:05,127 - INFO - Archivo cargado. Filas: 560486, Columnas: 154
+2025-05-12 22:58:05,135 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:58:06,104 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:58:08,473 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\MinMax
+2025-05-12 22:58:08,671 - INFO - Procesando archivo: NoNorm_all_features.parquet
+2025-05-12 22:58:08,672 - INFO - Tamaño del archivo NoNorm_all_features.parquet: 0.19 GB
+2025-05-12 22:58:10,856 - INFO - Archivo cargado. Filas: 560486, Columnas: 713
+2025-05-12 22:58:10,868 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:58:26,355 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:58:38,638 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\NoNorm
+2025-05-12 22:58:39,466 - INFO - Procesando archivo: NoNorm_Linear_selected.parquet
+2025-05-12 22:58:39,467 - INFO - Tamaño del archivo NoNorm_Linear_selected.parquet: 0.10 GB
+2025-05-12 22:58:40,263 - INFO - Archivo cargado. Filas: 560486, Columnas: 144
+2025-05-12 22:58:40,274 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:58:41,285 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:58:43,602 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\NoNorm
+2025-05-12 22:58:43,784 - INFO - Procesando archivo: NoNorm_Model-Based_selected.parquet
+2025-05-12 22:58:43,794 - INFO - Tamaño del archivo NoNorm_Model-Based_selected.parquet: 0.01 GB
+2025-05-12 22:58:43,933 - INFO - Archivo cargado. Filas: 560486, Columnas: 11
+2025-05-12 22:58:43,940 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:58:44,196 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:58:44,445 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\NoNorm
+2025-05-12 22:58:44,459 - INFO - Procesando archivo: NoNorm_Nonlinear_selected.parquet
+2025-05-12 22:58:44,459 - INFO - Tamaño del archivo NoNorm_Nonlinear_selected.parquet: 0.11 GB
+2025-05-12 22:58:44,997 - INFO - Archivo cargado. Filas: 560486, Columnas: 154
+2025-05-12 22:58:45,005 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:58:45,998 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:58:48,530 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\NoNorm
+2025-05-12 22:58:48,712 - INFO - Procesando archivo: Robust_all_features.parquet
+2025-05-12 22:58:48,716 - INFO - Tamaño del archivo Robust_all_features.parquet: 0.19 GB
+2025-05-12 22:58:51,088 - INFO - Archivo cargado. Filas: 560486, Columnas: 713
+2025-05-12 22:58:51,102 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:59:04,304 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:59:16,689 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\Robust
+2025-05-12 22:59:17,425 - INFO - Procesando archivo: Robust_Linear_selected.parquet
+2025-05-12 22:59:17,428 - INFO - Tamaño del archivo Robust_Linear_selected.parquet: 0.10 GB
+2025-05-12 22:59:18,177 - INFO - Archivo cargado. Filas: 560486, Columnas: 145
+2025-05-12 22:59:18,188 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:59:19,187 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:59:21,487 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\Robust
+2025-05-12 22:59:21,656 - INFO - Procesando archivo: Robust_Model-Based_selected.parquet
+2025-05-12 22:59:21,664 - INFO - Tamaño del archivo Robust_Model-Based_selected.parquet: 0.01 GB
+2025-05-12 22:59:21,718 - INFO - Archivo cargado. Filas: 560486, Columnas: 11
+2025-05-12 22:59:21,728 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:59:21,951 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:59:22,262 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\Robust
+2025-05-12 22:59:22,280 - INFO - Procesando archivo: Robust_Nonlinear_selected.parquet
+2025-05-12 22:59:22,293 - INFO - Tamaño del archivo Robust_Nonlinear_selected.parquet: 0.11 GB
+2025-05-12 22:59:22,882 - INFO - Archivo cargado. Filas: 560486, Columnas: 154
+2025-05-12 22:59:22,892 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:59:23,849 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:59:26,184 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\Robust
+2025-05-12 22:59:26,361 - INFO - Procesando archivo: Standard_all_features.parquet
+2025-05-12 22:59:26,361 - INFO - Tamaño del archivo Standard_all_features.parquet: 0.19 GB
+2025-05-12 22:59:28,559 - INFO - Archivo cargado. Filas: 560486, Columnas: 713
+2025-05-12 22:59:28,570 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:59:41,440 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:59:54,140 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\Standard
+2025-05-12 22:59:54,921 - INFO - Procesando archivo: Standard_Linear_selected.parquet
+2025-05-12 22:59:54,922 - INFO - Tamaño del archivo Standard_Linear_selected.parquet: 0.10 GB
+2025-05-12 22:59:55,672 - INFO - Archivo cargado. Filas: 560486, Columnas: 144
+2025-05-12 22:59:55,685 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 22:59:56,954 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 22:59:59,548 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\Standard
+2025-05-12 22:59:59,713 - INFO - Procesando archivo: Standard_Model-Based_selected.parquet
+2025-05-12 22:59:59,713 - INFO - Tamaño del archivo Standard_Model-Based_selected.parquet: 0.05 GB
+2025-05-12 22:59:59,987 - INFO - Archivo cargado. Filas: 560486, Columnas: 80
+2025-05-12 22:59:59,997 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 23:00:00,682 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 23:00:02,029 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\Standard
+2025-05-12 23:00:02,129 - INFO - Procesando archivo: Standard_Nonlinear_selected.parquet
+2025-05-12 23:00:02,130 - INFO - Tamaño del archivo Standard_Nonlinear_selected.parquet: 0.11 GB
+2025-05-12 23:00:02,680 - INFO - Archivo cargado. Filas: 560486, Columnas: 155
+2025-05-12 23:00:02,691 - INFO - Distribución de clases: {5: 155452, 4: 125201, 3: 119213, 2: 108742, 1: 51878}
+2025-05-12 23:00:03,736 - INFO - División completada. Train: 448388, Test: 112098
+2025-05-12 23:00:06,285 - INFO - Archivos guardados en: C:\Users\Administrador\Documents\PythonScripts\Tesis\tesisaustral\outputs\experiments\train_test_splits_no_smote_20250512_225619\Standard
+2025-05-12 23:00:06,459 - INFO - Proceso completado. Archivos procesados correctamente: 20/20
