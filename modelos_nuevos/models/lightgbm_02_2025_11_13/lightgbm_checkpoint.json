@@ -1,0 +1,8 @@
+{
+  "MaxAbs_FE_ALL": {
+    "SMOTE": "failed"
+  },
+  "MaxAbs_FE_ANOVA": {
+    "SMOTE": "running"
+  }
+}
