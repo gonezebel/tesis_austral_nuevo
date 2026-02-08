@@ -1,6 +1,55 @@
-modelos_nuevos/models/lightgbm_02_2025_11_12/error_log.txt
-modelos_nuevos/models/lightgbm_02_2025_11_12/resumen_modelos_lightgbm.csv
-modelos_nuevos/models/lightgbm_02_2025_11_13/best_models/SMOTE/rs_MaxAbs_FE_ALL_SMOTE.pkl
-modelos_nuevos/models/lightgbm_02_2025_11_13/error_log.txt
-modelos_nuevos/models/lightgbm_02_2025_11_13/resumen_modelos_lightgbm.csv
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Data / outputs
+data/intermediate/
+data/models/
+reports/
+modelos_nuevos/
 old/
+
+# Generated data files
+*.parquet
+*.csv
+*.tsv
+*.pickle
+*.pkl
+*.joblib
+*.h5
+*.model
+*.npz
+*.npy
+
+# Logs
+*.log
+*.out
+*.err
+
+# Images / plots / reports
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Local config

@@ -22,5 +22,13 @@
         "level": "INFO",
         "log_file": "train_test_split.log",
         "console_output": true
+    },
+    "parameters": {
+        "01_LecturayAnalisis": {
+            "one_hot_encoder": {
+                "handle_unknown": "ignore",
+                "sparse_output": false
+            }
+        }
     }
 }
