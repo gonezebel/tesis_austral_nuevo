@@ -16,6 +16,7 @@ env/
 .ipynb_checkpoints/
 
 # Data / outputs
+scripts/
 data/intermediate/
 data/models/
 reports/

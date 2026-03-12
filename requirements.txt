@@ -1,16 +1,12 @@
 numpy==1.26.4
 pandas==2.2.0
 pyarrow==16.1.0
+matplotlib==3.9.0
+seaborn==0.13.2
 scikit-learn==1.4.2
 imbalanced-learn==0.13.0
 xgboost==2.1.0
-matplotlib==3.9.0
-seaborn==0.13.2
-
-# Required by project notebooks/scripts but not installed in current env
 lightgbm>=4.0.0
 kneed>=0.8.5
-
-# For running .ipynb files
 notebook>=7.0.0
 ipykernel>=6.0.0
